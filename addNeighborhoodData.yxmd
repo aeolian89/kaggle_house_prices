@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\estam\Documents\kaggle\house_prices\data\train.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MSSubClass" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MSZoning" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotFrontage" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Street" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Alley" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotShape" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LandContour" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Utilities" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotConfig" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LandSlope" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Neighborhood" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Condition1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Condition2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BldgType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HouseStyle" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OverallQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OverallCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YearBuilt" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YearRemodAdd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="RoofStyle" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="RoofMatl" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Exterior1st" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Exterior2nd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MasVnrType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MasVnrArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ExterQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ExterCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Foundation" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtExposure" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinType1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinSF1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinType2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinSF2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtUnfSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="TotalBsmtSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Heating" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HeatingQC" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="CentralAir" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Electrical" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="1stFlrSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="2ndFlrSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LowQualFinSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GrLivArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFullBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtHalfBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="FullBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HalfBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BedroomAbvGr" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="KitchenAbvGr" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="KitchenQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="TotRmsAbvGrd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Functional" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Fireplaces" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="FireplaceQu" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageYrBlt" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageFinish" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageCars" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PavedDrive" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="WoodDeckSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OpenPorchSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="EnclosedPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="3SsnPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ScreenPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PoolArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PoolQC" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Fence" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MiscFeature" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MiscVal" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MoSold" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YrSold" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SaleType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SaleCondition" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SalePrice" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\estam\AppData\Local\Temp\Engine_4120_f61e6d3353134834af93c781ac099312_\Engine_23488_4ceb8d13a7974fc0b1521c0e43ac0857_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="PortfolioPluginsGui.AllocateInput.AllocateInput">
+        <Position x="78" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Allocate dataSet="SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" spatialObj="False" UseWorkSpace="False">
+            <Geographies>
+              <Geography type="ZIPbyCNTY" key="1916950010" />
+              <Geography type="ZIPbyCNTY" key="1916950011" />
+              <Geography type="ZIPbyCNTY" key="1916950013" />
+              <Geography type="ZIPbyCNTY" key="1916950014" />
+            </Geographies>
+            <Variables>
+              <Var name="Census_2010_SF1_PT1.P0370001" description="Households US Census (2010) Families Average Family Size" />
+              <Var name="Census_2010_SF1_VVF.P0220002_PCT" description="Households US Census (2010) Household Type by Age of Householder % Family households" />
+              <Var name="Census_2010_SF1_VVF.P0220012_PCT" description="Households US Census (2010) Household Type by Age of Householder % Nonfamily households" />
+              <Var name="Census_2010_SF1_PT1.P0250007" description="Households US Census (2010) Households by Presence of People 65 Years and Over Households with no people 65 years and over" />
+              <Var name="Census_2010_SF1_PT1.P0170001" description="Households US Census (2010) Average Household Size" />
+              <Var name="Census_2010_SF1_VVF.H0040002_PCT" description="Housing Units US Census (2010) Tenure Percent % Owned with a mortgage or a loan" />
+              <Var name="Census_2010_SF1_VVF.H0040003_PCT" description="Housing Units US Census (2010) Tenure Percent % Owned free and clear" />
+              <Var name="Census_2010_SF1_VVF.H0040004_PCT" description="Housing Units US Census (2010) Tenure Percent % Renter occupied" />
+              <Var name="Census_2010_SF1_VVF.H0050002_PCT" description="Housing Units US Census (2010) Vacancy Status Percent % For rent" />
+              <Var name="Census_2010_SF1_VVF.H0050004_PCT" description="Housing Units US Census (2010) Vacancy Status Percent % For sale only" />
+              <Var name="Census_2010_SF1_VVF.P0080004_PCT" description="Population US Census (2010) Race Percent % Black or African American alone" />
+              <Var name="Census_2010_SF1_VVF.P0080003_PCT" description="Population US Census (2010) Race Percent % White alone" />
+              <Var name="Census_2010_SF1_VVF.P0020005_PCT" description="Population US Census (2010) Urban/Rural Population Percent % Rural" />
+              <Var name="Census_2010_SF1_VVF.P0020002_PCT" description="Population US Census (2010) Urban/Rural Population Percent % Urban" />
+              <Var name="Census_2010_SF1_VVF.P0120002_PCT" description="Population US Census (2010) % Total Male" />
+              <Var name="Census_2010_SF1_PT1.P0130001" description="Population US Census (2010) Median Age Total Population" />
+            </Variables>
+            <WorkSpace />
+            <OutputRawKey value="False" />
+            <OutputGeoType value="False" />
+          </Allocate>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="100" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="V_WString" />
+            <Field name="Key" size="32" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="V_WString" />
+            <Field description="Households US Census (2010) Families Average Family Size" name="P0370001" scale="2" size="22" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Households US Census (2010) Household Type by Age of Householder % Family households" name="P0220002_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Households US Census (2010) Household Type by Age of Householder % Nonfamily households" name="P0220012_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Households US Census (2010) Households by Presence of People 65 Years and Over Households with no people 65 years and over" name="P0250007" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="Int64" />
+            <Field description="Households US Census (2010) Average Household Size" name="P0170001" scale="2" size="22" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Housing Units US Census (2010) Tenure Percent % Owned with a mortgage or a loan" name="H0040002_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Housing Units US Census (2010) Tenure Percent % Owned free and clear" name="H0040003_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Housing Units US Census (2010) Tenure Percent % Renter occupied" name="H0040004_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Housing Units US Census (2010) Vacancy Status Percent % For rent" name="H0050002_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Housing Units US Census (2010) Vacancy Status Percent % For sale only" name="H0050004_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) Race Percent % Black or African American alone" name="P0080004_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) Race Percent % White alone" name="P0080003_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) Urban/Rural Population Percent % Rural" name="P0020005_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) Urban/Rural Population Percent % Urban" name="P0020002_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) % Total Male" name="P0120002_PCT" scale="2" size="11" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+            <Field description="Population US Census (2010) Median Age Total Population" name="P0130001" scale="2" size="22" source="Allocate: SOFTWARE\SRC\Portfolio\8.6\ALTERYX_US_Census_2010_SF1_17B" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxAllocateInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\estam\Documents\kaggle\house_prices\data\neighborhood_data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>neighborhood_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="neighborhood" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\neighborhood_data.csv" type="V_WString" />
+            <Field name="zipCode" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\neighborhood_data.csv" type="V_WString" />
+            <Field name="medianListingPrice" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\neighborhood_data.csv" type="V_WString" />
+            <Field name="pricePerSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\neighborhood_data.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="neighborhood" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Neighborhood" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Neighborhood" selected="True" rename="Right_Neighborhood" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="186" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Name], 5)" field="Name" size="100" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Name = Left([Name], 5)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="zipCode" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Key" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Name" selected="False" />
+                <SelectField field="Right_Key" selected="False" />
+                <SelectField field="Right_P0020005_PCT" selected="False" />
+                <SelectField field="Right_P0020002_PCT" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="P0370001" selected="True" rename="avgFamilySize" />
+            <SelectField field="P0220002_PCT" selected="True" rename="pctFamilyHH" />
+            <SelectField field="P0220012_PCT" selected="True" rename="pctNonFamilyHH" />
+            <SelectField field="P0250007" selected="True" rename="present65" />
+            <SelectField field="P0170001" selected="True" rename="avgHHSize" />
+            <SelectField field="H0040002_PCT" selected="True" rename="pctOwnedLoan" />
+            <SelectField field="H0040003_PCT" selected="True" rename="pctOwnedClear" />
+            <SelectField field="H0040004_PCT" selected="True" rename="pctRented" />
+            <SelectField field="H0050002_PCT" selected="True" rename="pctForRent" />
+            <SelectField field="H0050004_PCT" selected="True" rename="pctForSaleOnly" />
+            <SelectField field="P0080004_PCT" selected="True" rename="pctBlackEthnic" />
+            <SelectField field="P0080003_PCT" selected="True" rename="pctWhiteEthnic" />
+            <SelectField field="P0020005_PCT" selected="True" rename="pctRural" />
+            <SelectField field="P0020002_PCT" selected="True" rename="pctUrban" />
+            <SelectField field="P0120002_PCT" selected="True" rename="pctMale" />
+            <SelectField field="P0130001" selected="True" rename="medianAge" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="654" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="medianListingPrice" selected="True" type="Double" size="8" />
+            <SelectField field="pricePerSF" selected="True" type="Double" size="8" />
+            <SelectField field="MSSubClass" selected="True" type="Double" size="8" />
+            <SelectField field="LotFrontage" selected="True" type="Double" size="8" />
+            <SelectField field="LotArea" selected="True" type="Double" size="8" />
+            <SelectField field="Right_Neighborhood" selected="False" />
+            <SelectField field="OverallQual" selected="True" type="Int64" size="8" />
+            <SelectField field="OverallCond" selected="True" type="Int64" size="8" />
+            <SelectField field="YearBuilt" selected="True" type="Int64" size="8" />
+            <SelectField field="YearRemodAdd" selected="True" type="Int64" size="8" />
+            <SelectField field="MasVnrArea" selected="True" type="Double" size="8" />
+            <SelectField field="BsmtFinSF1" selected="True" type="Double" size="8" />
+            <SelectField field="BsmtFinSF2" selected="True" type="Double" size="8" />
+            <SelectField field="BsmtUnfSF" selected="True" type="Double" size="8" />
+            <SelectField field="TotalBsmtSF" selected="True" type="Double" size="8" />
+            <SelectField field="1stFlrSF" selected="True" type="Double" size="8" />
+            <SelectField field="2ndFlrSF" selected="True" type="Double" size="8" />
+            <SelectField field="LowQualFinSF" selected="True" type="Double" size="8" />
+            <SelectField field="GrLivArea" selected="True" type="Double" size="8" />
+            <SelectField field="BsmtFullBath" selected="True" type="Int64" size="8" />
+            <SelectField field="BsmtHalfBath" selected="True" type="Int64" size="8" />
+            <SelectField field="FullBath" selected="True" type="Int64" size="8" />
+            <SelectField field="HalfBath" selected="True" type="Int64" size="8" />
+            <SelectField field="BedroomAbvGr" selected="True" type="Int64" size="8" />
+            <SelectField field="KitchenAbvGr" selected="True" type="Int64" size="8" />
+            <SelectField field="TotRmsAbvGrd" selected="True" type="Int64" size="8" />
+            <SelectField field="Fireplaces" selected="True" type="Int64" size="8" />
+            <SelectField field="GarageYrBlt" selected="True" type="Int64" size="8" />
+            <SelectField field="GarageArea" selected="True" type="Double" size="8" />
+            <SelectField field="WoodDeckSF" selected="True" type="Double" size="8" />
+            <SelectField field="OpenPorchSF" selected="True" type="Double" size="8" />
+            <SelectField field="PoolArea" selected="True" type="Double" size="8" />
+            <SelectField field="MoSold" selected="True" type="Int64" size="8" />
+            <SelectField field="YrSold" selected="True" type="Int64" size="8" />
+            <SelectField field="avgFamilySize" selected="True" type="Double" size="8" />
+            <SelectField field="pctFamilyHH" selected="True" type="Double" size="8" />
+            <SelectField field="pctNonFamilyHH" selected="True" type="Double" size="8" />
+            <SelectField field="present65" selected="True" type="Double" size="8" />
+            <SelectField field="avgHHSize" selected="True" type="Double" size="8" />
+            <SelectField field="pctOwnedLoan" selected="True" type="Double" size="8" />
+            <SelectField field="pctOwnedClear" selected="True" type="Double" size="8" />
+            <SelectField field="pctRented" selected="True" type="Double" size="8" />
+            <SelectField field="pctForRent" selected="True" type="Double" size="8" />
+            <SelectField field="pctForSaleOnly" selected="True" type="Double" size="8" />
+            <SelectField field="pctBlackEthnic" selected="True" type="Double" size="8" />
+            <SelectField field="pctWhiteEthnic" selected="True" type="Double" size="8" />
+            <SelectField field="pctRural" selected="True" type="Double" size="8" />
+            <SelectField field="pctUrban" selected="True" type="Double" size="8" />
+            <SelectField field="pctMale" selected="True" type="Double" size="8" />
+            <SelectField field="medianAge" selected="True" type="Double" size="8" />
+            <SelectField field="SalePrice" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\estam\Documents\kaggle\house_prices\data\train_alteryx.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train_alteryx.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>addNeighborhoodData</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\estam\Documents\kaggle\house_prices\data\train.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MSSubClass" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MSZoning" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotFrontage" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Street" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Alley" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotShape" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LandContour" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Utilities" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LotConfig" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LandSlope" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Neighborhood" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Condition1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Condition2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BldgType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HouseStyle" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OverallQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OverallCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YearBuilt" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YearRemodAdd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="RoofStyle" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="RoofMatl" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Exterior1st" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Exterior2nd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MasVnrType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MasVnrArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ExterQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ExterCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Foundation" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtExposure" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinType1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinSF1" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinType2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFinSF2" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtUnfSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="TotalBsmtSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Heating" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HeatingQC" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="CentralAir" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Electrical" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="1stFlrSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="2ndFlrSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="LowQualFinSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GrLivArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtFullBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BsmtHalfBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="FullBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="HalfBath" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="BedroomAbvGr" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="KitchenAbvGr" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="KitchenQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="TotRmsAbvGrd" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Functional" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Fireplaces" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="FireplaceQu" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageYrBlt" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageFinish" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageCars" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageQual" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="GarageCond" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PavedDrive" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="WoodDeckSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="OpenPorchSF" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="EnclosedPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="3SsnPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="ScreenPorch" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PoolArea" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="PoolQC" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="Fence" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MiscFeature" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MiscVal" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="MoSold" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="YrSold" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SaleType" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SaleCondition" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+            <Field name="SalePrice" size="254" source="File: C:\Users\estam\Documents\kaggle\house_prices\data\train.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Id=True,MSSubClass=True,MSZoning=True,LotFrontage=True,LotArea=True,Street=True,Alley=True,LotShape=True,LandContour=True,Utilities=True,LotConfig=True,LandSlope=True,Neighborhood=True,Condition1=True,Condition2=True,BldgType=True,HouseStyle=True,OverallQual=True,OverallCond=True,YearBuilt=True,YearRemodAdd=True,RoofStyle=True,RoofMatl=True,Exterior1st=True,Exterior2nd=True,MasVnrType=True,MasVnrArea=True,ExterQual=True,ExterCond=True,Foundation=True,BsmtQual=True,BsmtCond=True,BsmtExposure=True,BsmtFinType1=True,BsmtFinSF1=True,BsmtFinType2=True,BsmtFinSF2=True,BsmtUnfSF=True,TotalBsmtSF=True,Heating=True,HeatingQC=True,CentralAir=True,Electrical=True,1stFlrSF=True,2ndFlrSF=True,LowQualFinSF=True,GrLivArea=True,BsmtFullBath=True,BsmtHalfBath=True,FullBath=True,HalfBath=True,BedroomAbvGr=True,KitchenAbvGr=True,KitchenQual=True,TotRmsAbvGrd=True,Functional=True,Fireplaces=True,FireplaceQu=True,GarageType=True,GarageYrBlt=True,GarageFinish=True,GarageCars=True,GarageArea=True,GarageQual=True,GarageCond=True,PavedDrive=True,WoodDeckSF=True,OpenPorchSF=True,EnclosedPorch=True,3SsnPorch=True,ScreenPorch=True,PoolArea=True,PoolQC=True,Fence=True,MiscFeature=True,MiscVal=True,MoSold=True,YrSold=True,SaleType=True,SaleCondition=True,SalePrice=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\estam\AppData\Local\Temp\Engine_18468_e0b6e6fdcec7464dae8ee1d82977f3ee_\Engine_20152_b554c9e91f19412f88a9000edc97241a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\estam\AppData\Local\Temp\Engine_18468_e0b6e6fdcec7464dae8ee1d82977f3ee_\Engine_20152_5693de359daa44be93272722cc114272_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\estam\AppData\Local\Temp\Engine_18468_e0b6e6fdcec7464dae8ee1d82977f3ee_\Engine_20152_e7a7b239df014f76af33d52e149efda6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>data_exploration</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
